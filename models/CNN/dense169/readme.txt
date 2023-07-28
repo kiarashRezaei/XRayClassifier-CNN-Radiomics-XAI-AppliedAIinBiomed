@@ -1,0 +1,1 @@
+Models ending with _expanded are keras models where the pretrained CNN has all layers visible and accessible (instead of being attached as a 'Functional'). This is done to fix a keras bug that prevents graph resolution of the modified model needed to run a GradCAM analysis.
